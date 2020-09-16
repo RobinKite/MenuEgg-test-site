@@ -1,0 +1,26 @@
+list
+
+link
+
+page-header
+
+page-nav
+
+container
+
+site-logo
+
+site-navigation
+    site-navigation__item
+    site-navigation__link
+
+site-registration
+    site-registration__item
+    site-registration__link
+
+banner
+    banner__title
+    banner__text
+
+
+

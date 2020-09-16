@@ -1,6 +1,26 @@
 /*
- * Все паршалы импортировать в этот файл
- */
+   Import partials below
+*/
 
-@import 'normalize.scss';
-@import 'base.scss';
+@import 'helpers/variables';
+@import 'helpers/placeholders';
+@import 'helpers/mixins';
+@import 'helpers/extras';
+@import 'normalize';
+@import 'base';
+
+/* Components */
+
+// @import 'components/button';
+// @import 'components/container';
+// @import 'components/page-header';
+// @import 'components/page-nav';
+// @import 'components/site-logo';
+// @import 'components/site-navigation';
+// @import 'components/banner';
+// @import 'components/slider';
+// @import 'components/section';
+// @import 'components/features';
+// @import 'components/team';
+// @import 'components/socials';
+// @import 'components/page-footer';
