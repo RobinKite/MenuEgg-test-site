@@ -74,6 +74,7 @@ typings/
 
 gulp/
 
+
 *.babelrc
 *.browserslistrc
 *.editorconfig
@@ -81,3 +82,4 @@ gulp/
 *.stylelintrc
 package.json
 package-lock.json
+gulpfile.js
