@@ -1,0 +1,24 @@
+.banner {
+    color: $primary-color;
+    font-family: $additional-font;
+    height: 518px;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../../images/index-banner.png'), no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 80px;
+    &__title {
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 1.2;
+        margin-bottom: 44px;
+    }
+    &__text {
+        font-weight: 400;
+        font-size: 27px;
+        line-height: 1.2;
+    }
+}

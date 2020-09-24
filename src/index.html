@@ -7,185 +7,196 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="icon" type="image/x-icon" href="./images/icons/favicon.ico">
     <link rel="stylesheet" href="css/styles.css">
-
     <title>MenuEgg - Treat Your Tastebuds</title>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="#">MenuEgg</a>
-
-            <ul>
-                <li>
-                    <a href="#">Home</a>
+    <header class="page-header">
+        <nav class="page-nav container">
+            <a href="#" class="link site-logo">
+                <img src="./images/logo.png" alt="site logo" width="40">
+            </a>
+            <ul class="list site-navigation">
+                <li class="site-navigation__item">
+                    <a href="#" class="link site-navigation__link">Home</a>
                 </li>
-                <li>
-                    <a href="#">WeightWatchers</a>
+                <li class="site-navigation__item">
+                    <a href="#" class="link site-navigation__link">WeightWatchers</a>
                 </li>
-                <li>
-                    <a href="#">Meal Planning</a>
+                <li class="site-navigation__item">
+                    <a href="#" class="link site-navigation__link">Meal Planning</a>
                 </li>
             </ul>
 
-            <ul>
-                <li>
-                    <a href="#">login</a>
+            <ul class="list site-registration">
+                <li class="site-registration__item">
+                    <a href="#" class="link site-registration__link">login</a>
                 </li>
-                <li>
-                    <a href="#">register</a>
+                <li class="site-registration__item">
+                    <a href="#" class="link site-registration__link">register</a>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <main>
+    <div class="banner">
+        <div class="container">
+            <h2 class="banner__title">Treat Your Tastebuds</h2>
+            <span class="banner__text">Let us help you decide WHERE to go and WHAT to order</span>
+        </div>
+    </div>
+
+    <main class="container">
         <h1 class="visually-hidden">MenuEgg - Treat Your Tastebuds</h1>
 
-        <section>
-            <h2>Treat Your Tastebuds</h2>
-            <span>Let us help you decide WHERE to go and WHAT to order</span>
-        </section>
-        <section>
-            <ul>
-                <li>
-                    <h2>Consumers</h2>
-                    <ul>
-                        <li>
-                            <h3>Dish Recommendations</h3>
-                            <p>Don't know what to eat? MenuEgg is customized just for you. A personalized recommendations system helps you find the perfect dish to eat nearby!</p>
+
+        <section class="user-info">
+            <ul class="list user-info__list">
+                <li class="user-info__item">
+                    <h2 class="user-info__title icon icon-user">Consumers</h2>
+                    <ul class="list consumers">
+                        <li class="consumers__item">
+                            <h3 class="consumers__title">Dish Recommendations</h3>
+                            <p class="consumers__text">Don't know what to eat? MenuEgg is customized just for you. A personalized recommendations system helps you find the perfect dish to eat nearby!</p>
                         </li>
-                        <li>
-                            <h3>AI And Machine Learning</h3>
-                            <p>Custom built Artifical Intelligence and Machine Learning built into Recommending the best dish for you</p>
+                        <li class="consumers__item">
+                            <h3 class="consumers__title">AI And Machine Learning</h3>
+                            <p class="consumers__text">Custom built Artifical Intelligence and Machine Learning built into Recommending the best dish for you</p>
                         </li>
+
+                        <li class="consumers__item">
+                            <ul class="list">
+                                <li>
+                                    <span>Step 1: location</span>
+
+                                    <div>
+                                        <h2>Where are you currently?</h2>
+                                        <input type="text" name="search" id="search" placeholder="Search address">
+                                        <div>MAP</div>
+                                        <ul class="list">
+                                            <li><button>Locate me</button></li>
+                                            <li><button>Next</button></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span>Step 2: personality</span>
+
+                                    <div>
+                                        <h2>What type of restaurants are you feeling?</h2>
+                                        div
+                                        <span>Please make your choice (coordinates, category, persona)</span>
+
+                                        <h3>Select the type of restaurants you like:</h3>
+                                        <ul class="list">
+                                            <li><span>African Restaurant</span></li>
+                                            <li><span>American Restaurant</span></li>
+                                            <li><span>Asian Restaurant</span></li>
+                                            <li><span>Café</span></li>
+                                            <li><span>Dessert Shop</span></li>
+                                            <li><span>French Restaurant</span></li>
+                                            <li><span>German Restaurant</span></li>
+                                            <li><span>Greek Restaurant</span></li>
+                                            <li><span>Indian Restaurant</span></li>
+                                            <li><span>Italian Restaurant</span></li>
+                                            <li><span>Latin American Restaurant</span></li>
+                                            <li><span>Mediterranean Restaurant</span></li>
+                                            <li><span>Mexican Restaurant</span></li>
+                                            <li><span>Middle Eastern Restaurant</span></li>
+                                            <li><span>Pizza Place</span></li>
+                                            <li><span>Seafood Restaurant</span></li>
+                                            <li><span>Spanish Restaurant</span></li>
+                                        </ul>
+                                        <h3>Which one of these fits you best?</h3>
+                                        <ul class="list">
+                                            <li>
+                                                <div>
+                                                    <h4>Carbolicious</h4>
+                                                    <p>Do you love bread and carbs?</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div>
+                                                    <h4>Food Coma</h4>
+                                                    <p>Like to pass out after you eat?</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div>
+                                                    <h4>Heart Healthy</h4>
+                                                    <p>Are you focused on a healthy life style?</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div>
+                                                    <h4>Protein Rich</h4>
+                                                    <p>High protein diets</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div>
+                                                    <h4>Sweet Tooth</h4>
+                                                    <p>Sometimes the sweet things in life are just a dish away!</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <button>Next</button>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span>Step 3: recommendations</span>
+
+                                    <div>
+                                        <h2>We've found some places for you</h2>
+                                        <div>
+                                            <button>&#60;</button>
+                                            <div><span>Starbird</span></div>
+                                            <button>&#62;</button>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+
                     </ul>
                 </li>
-                <li>
-                    <h2>Restaurant Owners</h2>
-                    <div>
-                        <h3>Why use MenuEgg?</h3>
-                        <p>One of the hardest obstacles a restaurant owner faces is attracting customers. Existing methods include marketing through social media platforms, providing coupons either through print media or via the web, providing birthday specials
+                <li class="user-info__item">
+                    <h2 class="user-info__title icon icon-building">Restaurant Owners</h2>
+                    <div class="rest-owners">
+                        <h3 class="rest-owners__title">Why use MenuEgg?</h3>
+                        <p class="rest-owners__text">One of the hardest obstacles a restaurant owner faces is attracting customers. Existing methods include marketing through social media platforms, providing coupons either through print media or via the web, providing birthday specials
                             to bring back customers, the list goes on and on.</p>
-                        <p>The hardest part about this is actually attracting the right customers and promoting to them and not a customer that is not interested in your restaurant's type of food. Provided that most customers are constantly on their smartphones
+                        <p class="rest-owners__text">The hardest part about this is actually attracting the right customers and promoting to them and not a customer that is not interested in your restaurant's type of food. Provided that most customers are constantly on their smartphones
                             means that this is the perfect avenue to get users.</p>
-                        <p>That is where MenuEgg comes in. We provide a platform for owners to promote to specific users who are in a specific distance of the restaurant's location and have a keen interest in your restaurant's type of food. We will send
+                        <p class="rest-owners__text">That is where MenuEgg comes in. We provide a platform for owners to promote to specific users who are in a specific distance of the restaurant's location and have a keen interest in your restaurant's type of food. We will send
                             a push notification to the users device which results in over 80% click-through rate which results in a growth in customer base for you!</p>
                     </div>
                 </li>
-                <li>
-                    <h2>Developers</h2>
+                <li class="user-info__item">
+                    <h2 class="user-info__title icon icon-file-code">Developers</h2>
 
-                    <span>Coming Soon!</span>
-                    <label for="email">Enter email and get notified</label>
-                    <input type="email" id="email" placeholder="enter your email">
-                    <input type="submit" value="Notify">
-                </li>
-                <li>
-                    <h2>Investors</h2>
-
-                    <span>Coming Soon!</span>
-                    <label for="email">Enter email and get notified</label>
-                    <input type="email" id="email" placeholder="enter your email">
-                    <input type="submit" value="Notify">
-                </li>
-            </ul>
-        </section>
-        <section>
-            <ul>
-                <li>
-                    <span>Step 1: location</span>
-
-                    <div>
-                        <h2>Where are you currently?</h2>
-                        <input type="text" name="search" id="search" placeholder="Search address">
-                        <div>MAP</div>
-                        <ul>
-                            <li><button>Locate me</button></li>
-                            <li><button>Next</button></li>
-                        </ul>
+                    <div class="coming-soon">
+                        <span class="coming-soon__title">Coming Soon!</span>
+                        <label for="email" class="coming-soon__email--label">Enter email and get notified</label>
+                        <input type="email" id="email_dev" placeholder="enter your email" class="coming-soon__email--input">
+                        <input type="submit" value="Notify" class="coming-soon__email--submit">
                     </div>
                 </li>
-                <li>
-                    <span>Step 2: personality</span>
+                <li class="user-info__item">
+                    <h2 class="user-info__title icon icon-briefcase">Investors</h2>
 
-                    <div>
-                        <h2>What type of restaurants are you feeling?</h2>
-                        div
-                        <span>Please make your choice (coordinates, category, persona)</span>
-
-                        <h3>Select the type of restaurants you like:</h3>
-                        <ul>
-                            <li><span>African Restaurant</span></li>
-                            <li><span>American Restaurant</span></li>
-                            <li><span>Asian Restaurant</span></li>
-                            <li><span>Café</span></li>
-                            <li><span>Dessert Shop</span></li>
-                            <li><span>French Restaurant</span></li>
-                            <li><span>German Restaurant</span></li>
-                            <li><span>Greek Restaurant</span></li>
-                            <li><span>Indian Restaurant</span></li>
-                            <li><span>Italian Restaurant</span></li>
-                            <li><span>Latin American Restaurant</span></li>
-                            <li><span>Mediterranean Restaurant</span></li>
-                            <li><span>Mexican Restaurant</span></li>
-                            <li><span>Middle Eastern Restaurant</span></li>
-                            <li><span>Pizza Place</span></li>
-                            <li><span>Seafood Restaurant</span></li>
-                            <li><span>Spanish Restaurant</span></li>
-                        </ul>
-                        <h3>Which one of these fits you best?</h3>
-                        <ul>
-                            <li>
-                                <div>
-                                    <h4>Carbolicious</h4>
-                                    <p>Do you love bread and carbs?</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div>
-                                    <h4>Food Coma</h4>
-                                    <p>Like to pass out after you eat?</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div>
-                                    <h4>Heart Healthy</h4>
-                                    <p>Are you focused on a healthy life style?</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div>
-                                    <h4>Protein Rich</h4>
-                                    <p>High protein diets</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div>
-                                    <h4>Sweet Tooth</h4>
-                                    <p>Sometimes the sweet things in life are just a dish away!</p>
-                                </div>
-                            </li>
-                        </ul>
-                        <button>Next</button>
-                    </div>
-                </li>
-                <li>
-                    <span>Step 3: recommendations</span>
-
-                    <div>
-                        <h2>We've found some places for you</h2>
-                        <div>
-                            <button>&#60;</button>
-                            <div><span>Starbird</span></div>
-                            <button>&#62;</button>
-                        </div>
+                    <div class="coming-soon">
+                        <span class="coming-soon__title">Coming Soon!</span>
+                        <label for="email" class="coming-soon__email--label">Enter email and get notified</label>
+                        <input type="email" id="email_inv" placeholder="enter your email" class="coming-soon__email--input">
+                        <input type="submit" value="Notify" class="coming-soon__email--submit">
                     </div>
                 </li>
             </ul>
         </section>
+
         <section>
-            <ul>
+            <ul class="list">
                 <li>
                     <h3>Dish Recommendations</h3>
                     <p>Don't know what to eat? MenuEgg is customized just for you. A personalized recommendations system helps you find the perfect dish to eat nearby!</p>
@@ -216,9 +227,9 @@
             <span>Delicious food is just a click away! Explore our enlisted restaurants – we believe, you will love them.</span>
         </section>
         <section>
-            <img src="#" alt="screenshot of mobile app">
+            <img src="./images/3_step_home.png" alt="screenshot of mobile app">
             <h2>This is Why You Will Love MenuEgg</h2>
-            <ul>
+            <ul class="list">
                 <li><span>Recommended Dishes Nearby</span></li>
                 <li><span>View Restaurant Menus</span></li>
                 <li><span>Redeem Points for E-Gift Cards</span></li>
@@ -235,10 +246,10 @@
             <h2>Personalized Recommendation</h2>
             <p>As you begin using the app, MenuEgg's artifical intelligence algorithm learns what you enjoy. It then recommends and suggests trendy dishes nearby that you'll love. Try it out and see how one click can save you 10 mins of deciding where to
                 go and eat. Sync up with your friends and let MenuEgg do all the deciding for you!</p>
-            <img src="#" alt="screenshot of mobile app">
+            <img src="./images/4_step_home.png" alt="screenshot of mobile app">
         </section>
         <section>
-            <ul>
+            <ul class="list">
                 <li>
                     <h3>Customization</h3>
                     <p>Each screen is tailored to fit your taste buds to make sure you are only seeing key dishes!</p>
@@ -276,21 +287,25 @@
         <section>
             <h2>MenuEgg in your pocket!</h2>
             <p>Get our app, true food recommendation is only a tap away.</p>
-            <ul>
+            <ul class="list">
                 <li><a href="#">App Store</a></li>
                 <li><a href="#">Google play</a></li>
             </ul>
         </section>
-        <button>Contact us</button>
+        <button class="chat-button">
+            <svg x="0px" y="0px" viewBox="0 0 27 21.9" aria-label="three small dots to indicate that an agent is available to chat" aria-hidden="true" role="img"><title>Chat Icon </title><desc>three small dots to indicate that an agent is available to chat</desc><path d="M23.2,0L2.6,1.7C1,1.9,0,3.2,0,4.9v8c0,1.6,0.8,3,2.4,3.1l5.3,0.5c0,0,1,1.6,0.3,3.2C7.2,21.3,6,21.9,6,21.9 c4.2,0,6.6-3.1,7.8-4.9l9.4,0.7c1.8,0.2,3.8-1.3,3.8-3.1V3.1C27,1.3,25-0.1,23.2,0z M6.4,10.1c-0.9,0-1.7-0.7-1.7-1.7 c0-0.9,0.7-1.7,1.7-1.7C7.3,6.8,8,7.5,8,8.5C8,9.4,7.3,10.1,6.4,10.1z M13.2,10.1c-0.9,0-1.7-0.7-1.7-1.7c0-0.9,0.7-1.7,1.7-1.7 c0.9,0,1.7,0.7,1.7,1.7C14.8,9.4,14.1,10.1,13.2,10.1z M19.9,10.1c-0.9,0-1.7-0.7-1.7-1.7c0-0.9,0.7-1.7,1.7-1.7 c0.9,0,1.7,0.7,1.7,1.7C21.6,9.4,20.9,10.1,19.9,10.1z"></path></svg>
+            Chat with us</button>
     </main>
 
     <footer>
-        <span>&#169; Copyright 2020 MenuEgg LLC</span>
+        <div class="container page-footer">
+            <span class="page-footer__text">&#169; Copyright 2020 MenuEgg LLC</span>
 
-        <ul>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Facebook</a></li>
-        </ul>
+            <ul class="list">
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
+            </ul>
+        </div>
     </footer>
 </body>
 

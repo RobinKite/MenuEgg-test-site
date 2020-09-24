@@ -1,0 +1,77 @@
+.user-info {
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+    }
+    &__item {
+        height: 100%;
+        position: relative;
+        flex-basis: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid $neutral-color;
+        border-radius: 4px 4px 0 0;
+        transition: all .3s ease-in-out 0s;
+        cursor: pointer;
+        &:nth-child(1) {
+            border: 1px solid $neutral-color;
+            border-bottom: none;
+        }
+        &:hover {
+            background-color: $neutral-color;
+        }
+    }
+    &__title {
+        font-family: $additional-font;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1;
+        text-transform: none;
+        margin-bottom: 20px;
+    }
+}
+
+.consumers,
+.rest-owners,
+.coming-soon {
+    display: none;
+}
+
+.icon {
+    &::before {
+        position: absolute;
+        margin-left: -20px;
+        font-family: 'icomoon';
+        line-height: 1;
+    }
+    &-briefcase::before {
+        content: "\e900";
+    }
+    &-building::before {
+        content: "\e901";
+    }
+    &-chart::before {
+        content: "\e902";
+    }
+    &-cogs::before {
+        content: "\e903";
+    }
+    &-file-code::before {
+        content: "\e904";
+    }
+    &-heart::before {
+        content: "\e905";
+    }
+    &-like::before {
+        content: "\e906";
+    }
+    &-map::before {
+        content: "\e907";
+    }
+    &-user::before {
+        content: "\e908";
+    }
+}

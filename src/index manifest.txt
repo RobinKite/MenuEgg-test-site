@@ -22,5 +22,24 @@ banner
     banner__title
     banner__text
 
+user-info
+    user-info__list
+    user-info__item
+    user-info__title
+
+consumers
+    consumers__item
+    consumers__title
+    consumers__text
+
+rest-owners
+    rest-owners__title
+    rest-owners__text
+
+coming-soon
+    coming-soon__title
+    coming-soon__email--label
+    coming-soon__email--input
+    coming-soon__email--submit
 
 
