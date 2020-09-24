@@ -9,7 +9,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # build artifacts
-build/
+# build/
 
 # Runtime data
 pids
@@ -71,3 +71,11 @@ typings/
 # Ignore any history files made by VSC plugin
 .history/*
 >>>>>>> e5d825357c8c15ad546937be2a990655d8046589
+
+.babelrc
+.browserslistrc
+.editorconfig
+.prettierrc
+.stylelintrc
+package.json
+package-lock.json
