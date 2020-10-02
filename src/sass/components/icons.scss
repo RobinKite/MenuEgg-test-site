@@ -37,4 +37,10 @@
     &-arrow::before {
         content: "\e90a";
     }
+    &-left::before {
+        content: "\e90b";
+    }
+    &-right::before {
+        content: "\e90c";
+    }
 }
