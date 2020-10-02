@@ -1,0 +1,44 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: $main-font-stack;
+    color: $body-text-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: $additional-font;
+    line-height: 1.5;
+    font-weight: 400;
+    color: $headline-color;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}

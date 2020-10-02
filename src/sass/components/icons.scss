@@ -1,0 +1,40 @@
+.icon {
+    &::before {
+        position: absolute;
+        font-family: 'icomoon';
+        line-height: 1;
+    }
+    &-briefcase::before {
+        content: "\e900";
+    }
+    &-building::before {
+        content: "\e901";
+    }
+    &-chart::before {
+        content: "\e902";
+    }
+    &-cogs::before {
+        content: "\e903";
+    }
+    &-file-code::before {
+        content: "\e904";
+    }
+    &-heart::before {
+        content: "\e905";
+    }
+    &-like::before {
+        content: "\e906";
+    }
+    &-map::before {
+        content: "\e907";
+    }
+    &-user::before {
+        content: "\e908";
+    }
+    &-location::before {
+        content: "\e909";
+    }
+    &-arrow::before {
+        content: "\e90a";
+    }
+}

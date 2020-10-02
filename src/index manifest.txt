@@ -1,0 +1,45 @@
+list
+
+link
+
+page-header
+
+page-nav
+
+container
+
+site-logo
+
+site-navigation
+    site-navigation__item
+    site-navigation__link
+
+site-registration
+    site-registration__item
+    site-registration__link
+
+banner
+    banner__title
+    banner__text
+
+user-info
+    user-info__list
+    user-info__item
+    user-info__title
+
+consumers
+    consumers__item
+    consumers__title
+    consumers__text
+
+rest-owners
+    rest-owners__title
+    rest-owners__text
+
+coming-soon
+    coming-soon__title
+    coming-soon__email--label
+    coming-soon__email--input
+    coming-soon__email--submit
+
+

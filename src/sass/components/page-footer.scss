@@ -1,0 +1,15 @@
+footer {
+    background-color: $footer-color;
+}
+
+.page-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    &__text {
+        font-family: $main-font-stack;
+        font-size: 13px;
+        font-weight: 400;
+    }
+}
