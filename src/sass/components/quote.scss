@@ -1,0 +1,23 @@
+.quote {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    background-image: url(../images/why-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 80px 15px;
+    &__text {
+        margin: 0 auto;
+        max-width: 1140px;
+        background-color: rgba($color: #000000, $alpha: 0.6);
+        text-align: center;
+        color: $primary-color;
+        line-height: 1.5;
+        font-family: $additional-font;
+        font-weight: 400;
+        font-size: 34px;
+        padding: 10px;
+    }
+}

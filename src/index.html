@@ -52,7 +52,7 @@
 
         <section class="user-info">
             <ul class="list user-info__list user-info__list--menu">
-                <li class="user-info__item user-info__item--menu">
+                <li class="user-info__item user-info__item--menu menu--selected">
                     <h2 class="user-info__title icon icon-user">Consumers</h2>
                 </li>
                 <li class="user-info__item user-info__item--menu">
@@ -80,7 +80,7 @@
 
                         <li class="consumers__item">
                             <ul class="list consumers__menu">
-                                <li class="consumers__menu--item">
+                                <li class="consumers__menu--item step--selected">
                                     <p class="consumers__menu--option icon icon-map">Step 1: location</p>
                                 </li>
                                 <li class="consumers__menu--item">
@@ -100,7 +100,7 @@
                                         <li><button class="button button__next icon icon-arrow">Next</button></li>
                                     </ul>
                                 </li>
-                                <li class="consumers__content--item personality">
+                                <li class="consumers__content--item personality visually-hidden">
                                     <h2 class="consumers__content--title icon icon-heart">What type of restaurants are you feeling?</h2>
                                     <p class="consumers__content--warning">Please make your choice (coordinates, category, persona)</p>
 
@@ -195,7 +195,7 @@
                                         <button class="button button__next icon icon-arrow">Next</button>
                                     </div>
                                 </li>
-                                <li class="consumers__content--item ">
+                                <li class="consumers__content--item visually-hidden">
                                     <h2 class="consumers__content--title icon icon-like">We've found some places for you</h2>
                                     <div class="recommendations">
                                         <button class="recommendations__button icon icon-left"></button>
@@ -205,14 +205,14 @@
                                         <button class="recommendations__button icon icon-right"></button>
                                     </div>
                                     <div class="consumers__content--buttons">
-                                        <button class="button button__next icon icon-arrow">Download app</button>
+                                        <button class="button button__download icon icon-arrow">Download app</button>
                                     </div>
                                 </li>
                             </ul>
                         </li>
                     </ul>
                 </li>
-                <li class="user-info__item user-info__item--content ">
+                <li class="user-info__item user-info__item--content visually-hidden">
                     <div class="rest-owners">
                         <h3 class="rest-owners__title">Why use MenuEgg?</h3>
                         <p class="rest-owners__text">One of the hardest obstacles a restaurant owner faces is attracting customers. Existing methods include marketing through social media platforms, providing coupons either through print media or via the web, providing birthday specials
@@ -223,7 +223,7 @@
                             a push notification to the users device which results in over 80% click-through rate which results in a growth in customer base for you!</p>
                     </div>
                 </li>
-                <li class="user-info__item user-info__item--content">
+                <li class="user-info__item user-info__item--content visually-hidden">
                     <div class="coming-soon">
                         <p class="coming-soon__title">Coming Soon!</p>
                         <form action="#" class="coming-soon__email">
@@ -235,14 +235,14 @@
                         </form>
                     </div>
                 </li>
-                <li class="user-info__item user-info__item--content">
+                <li class="user-info__item user-info__item--content visually-hidden">
                     <div class="coming-soon">
                         <p class="coming-soon__title">Coming Soon!</p>
                         <form action="#" class="coming-soon__email">
                             <label for="email" class="coming-soon__email--label">Enter email and get notified</label>
                             <div class="coming-soon__email--button">
                                 <input type="email" id="email_inv" placeholder="enter your email" class="coming-soon__email--input">
-                                <input type="submit " value="Notify" class="coming-soon__email--submit">
+                                <input type="submit" value="Notify" class="coming-soon__email--submit">
                             </div>
                         </form>
                     </div>
@@ -250,52 +250,52 @@
             </ul>
         </section>
 
-        <section>
-            <ul class="list">
-                <li>
-                    <h3>Dish Recommendations</h3>
-                    <p>Don't know what to eat? MenuEgg is customized just for you. A personalized recommendations system helps you find the perfect dish to eat nearby!</p>
+        <section class="description">
+            <ul class="list description__list">
+                <li class="description__item">
+                    <h3 class="description__title icon icon-cogs">Dish Recommendations</h3>
+                    <p class="description__text">Don't know what to eat? MenuEgg is customized just for you. A personalized recommendations system helps you find the perfect dish to eat nearby!</p>
                 </li>
-                <li>
-                    <h3>Dish Ratings</h3>
-                    <p>See what others have to say about the dish you are about to order. Ratings down to the dish will give full detail on each dish.</p>
+                <li class="description__item">
+                    <h3 class="description__title icon icon-check">Dish Ratings</h3>
+                    <p class="description__text">See what others have to say about the dish you are about to order. Ratings down to the dish will give full detail on each dish.</p>
                 </li>
-                <li>
-                    <h3>AI And Machine Learning</h3>
-                    <p>Custom built Artifical Intelligence and Machine Learning built into Recommending the best dish for you</p>
+                <li class="description__item">
+                    <h3 class="description__title icon icon-chart">AI And Machine Learning</h3>
+                    <p class="description__text">Custom built Artifical Intelligence and Machine Learning built into Recommending the best dish for you</p>
                 </li>
-                <li>
-                    <h3>Ready for Business Owners</h3>
-                    <p>Restaurant owners can see what customers are saying about specific dishes. They'll be able to distribute coupons for customers to use.</p>
+                <li class="description__item">
+                    <h3 class="description__title icon icon-building">Ready for Business Owners</h3>
+                    <p class="description__text">Restaurant owners can see what customers are saying about specific dishes. They'll be able to distribute coupons for customers to use.</p>
                 </li>
-                <li>
-                    <h3>Crafted with Love</h3>
-                    <p>MenuEgg has won multiple rewards for next generation AI and machine learning algorithms, top customer satisfaction, as well as user interface designs!</p>
+                <li class="description__item">
+                    <h3 class="description__title icon icon-heart-solid">Crafted with Love</h3>
+                    <p class="description__text">MenuEgg has won multiple rewards for next generation AI and machine learning algorithms, top customer satisfaction, as well as user interface designs!</p>
                 </li>
-                <li>
-                    <h3>iOS</h3>
-                    <p>Currently MenuEgg is available for iOS devices. This includes both customers as well as restaurant owners. Andriod is coming soon!</p>
+                <li class="description__item">
+                    <h3 class="description__title icon icon-mobile">iOS</h3>
+                    <p class="description__text">Currently MenuEgg is available for iOS devices. This includes both customers as well as restaurant owners. Andriod is coming soon!</p>
                 </li>
             </ul>
         </section>
-        <section>
-            <p>Delicious food is just a click away! Explore our enlisted restaurants – we believe, you will love them.</p>
+        <section class="quote">
+            <p class="quote__text">Delicious food is just a click away! Explore our enlisted restaurants – we believe, you will love them.</p>
         </section>
-        <section>
-            <img src="./images/3_step_home.png " alt="screenshot of mobile app " width="295 ">
-            <h2>This is Why You Will Love MenuEgg</h2>
-            <ul class="list ">
-                <li>
-                    <p>Recommended Dishes Nearby</p>
+        <section class="why-love">
+            <img src="./images/3_step_home.png" alt="screenshot of mobile app" width="295">
+            <h2 class="why-love__title">This is Why You Will Love MenuEgg</h2>
+            <ul class="list why-love__list">
+                <li class="why-love__item">
+                    <p class="why-love__option icon icon-check">Recommended Dishes Nearby</p>
                 </li>
-                <li>
-                    <p>View Restaurant Menus</p>
+                <li class="why-love__item">
+                    <p class="why-love__option icon icon-check">View Restaurant Menus</p>
                 </li>
-                <li>
-                    <p>Redeem Points for E-Gift Cards</p>
+                <li class="why-love__item">
+                    <p class="why-love__option icon icon-check">Redeem Points for E-Gift Cards</p>
                 </li>
             </ul>
-            <button>Download now!</button>
+            <button class="why-love__button">Download now!</button>
         </section>
         <section>
             <h2>Sync with your friends</h2>
@@ -307,10 +307,10 @@
             <h2>Personalized Recommendation</h2>
             <p>As you begin using the app, MenuEgg's artifical intelligence algorithm learns what you enjoy. It then recommends and suggests trendy dishes nearby that you'll love. Try it out and see how one click can save you 10 mins of deciding where to
                 go and eat. Sync up with your friends and let MenuEgg do all the deciding for you!</p>
-            <img src="./images/4_step_home.png " alt="screenshot of mobile app " width="212 ">
+            <img src="./images/4_step_home.png" alt="screenshot of mobile app" width="212">
         </section>
         <section>
-            <ul class="list ">
+            <ul class="list">
                 <li>
                     <h3>Customization</h3>
                     <p>Each screen is tailored to fit your taste buds to make sure you are only seeing key dishes!</p>
@@ -348,29 +348,98 @@
         <section>
             <h2>MenuEgg in your pocket!</h2>
             <p>Get our app, true food recommendation is only a tap away.</p>
-            <ul class="list ">
-                <li><a href="# ">App Store</a></li>
-                <li><a href="# ">Google play</a></li>
+            <ul class="list">
+                <li><a href="#">App Store</a></li>
+                <li><a href="#">Google play</a></li>
             </ul>
         </section>
-        <button class="chat-button ">
-            <svg x="0px " y="0px " viewBox="0 0 27 21.9 " aria-label="three small dots to indicate that an agent is available to chat " aria-hidden="true " role="img
-                                        "><title>Chat Icon </title><desc>three small dots to indicate that an agent is available to chat</desc><path d="M23.2,0L2.6,1.7C1,1.9,0,3.2,0,4.9v8c0,1.6,0.8,3,2.4,3.1l5.3,0.5c0,0,1,1.6,0.3,3.2C7.2,21.3,6,21.9,6,21.9 c4.2,0,6.6-3.1,7.8-4.9l9.4,0.7c1.8,0.2,3.8-1.3,3.8-3.1V3.1C27,1.3,25-0.1,23.2,0z M6.4,10.1c-0.9,0-1.7-0.7-1.7-1.7
-                                        c0-0.9,0.7-1.7,1.7-1.7C7.3,6.8,8,7.5,8,8.5C8,9.4,7.3,10.1,6.4,10.1z M13.2,10.1c-0.9,0-1.7-0.7-1.7-1.7c0-0.9,0.7-1.7,1.7-1.7 c0.9,0,1.7,0.7,1.7,1.7C14.8,9.4,14.1,10.1,13.2,10.1z M19.9,10.1c-0.9,0-1.7-0.7-1.7-1.7c0-0.9,0.7-1.7,1.7-1.7
-                                        c0.9,0,1.7,0.7,1.7,1.7C21.6,9.4,20.9,10.1,19.9,10.1z "></path></svg>
-            Chat with us</button>
+        <button class="chat-button icon icon-chat">Chat with us</button>
     </main>
 
     <footer>
-        <div class="container page-footer ">
-            <p class="page-footer__text ">&#169; Copyright 2020 MenuEgg LLC</p>
+        <div class="container page-footer">
+            <p class="page-footer__text">&#169; Copyright 2020 MenuEgg LLC</p>
 
-            <ul class="list ">
-                <li><a href="# ">Twitter</a></li>
-                <li><a href="# ">Facebook</a></li>
+            <ul class="list">
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
             </ul>
         </div>
     </footer>
+
+    <script>
+        //user-info menu
+        let items = document.querySelectorAll(".user-info__item--menu"),
+            itemsArr = [];
+        let content = document.querySelectorAll(".user-info__item--content"),
+            contentArr = [];
+        let count = 0;
+        for (let i = 0; i < items.length; i++) {
+            itemsArr.push(items[i]);
+            contentArr.push(content[i]);
+        }
+        for (let i = 0; i < items.length; i++) {
+            itemsArr[i].onclick = function() {
+                if (count != i) {
+                    itemsArr[count].classList.toggle("menu--selected");
+                    contentArr[count].classList.toggle("visually-hidden");
+                    count = i;
+                    itemsArr[i].classList.toggle("menu--selected");
+                    contentArr[i].classList.toggle("visually-hidden");
+                    console.log(count);
+                } else if (count === i) {
+                    console.log("ALREADY PICKED");
+                }
+            };
+        }
+        //consumers menu
+        let items2 = document.querySelectorAll(".consumers__menu--item"),
+            itemsArr2 = [];
+        let content2 = document.querySelectorAll(".consumers__content--item"),
+            contentArr2 = [];
+        let count2 = 0;
+        for (let i = 0; i < items2.length; i++) {
+            itemsArr2.push(items2[i]);
+            contentArr2.push(content2[i]);
+        }
+        for (let i = 0; i < items2.length; i++) {
+            itemsArr2[i].onclick = function() {
+                if (count2 != i) {
+                    itemsArr2[count2].classList.toggle("step--selected");
+                    contentArr2[count2].classList.toggle("visually-hidden");
+                    count2 = i;
+                    itemsArr2[i].classList.toggle("step--selected");
+                    contentArr2[i].classList.toggle("visually-hidden");
+                    // console.log(count2);
+                } else if (count2 === i) {
+                    console.log("ALREADY PICKED");
+                }
+            };
+        }
+        //personality options
+        let items3 = document.querySelectorAll(".personality__rest-option"),
+            itemsArr3 = [];
+        let items4 = document.querySelectorAll(".personality__item--style"),
+            itemsArr4 = [];
+        for (let i = 0; i < items3.length; i++) {
+            itemsArr3.push(items3[i]);
+        }
+        for (let i = 0; i < items3.length; i++) {
+            itemsArr3[i].onclick = function() {
+                itemsArr3[i].classList.toggle("rest--selected");
+            }
+        }
+        for (let i = 0; i < items4.length; i++) {
+            itemsArr4.push(items4[i]);
+        }
+        for (let i = 0; i < items4.length; i++) {
+            itemsArr4[i].onclick = function() {
+
+                itemsArr4[i].classList.toggle("food--selected");
+
+            }
+        }
+    </script>
 </body>
 
 </html>

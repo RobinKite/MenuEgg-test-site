@@ -2,23 +2,28 @@
     position: fixed;
     bottom: 15px;
     right: 20px;
+    height: 48px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: $button-color;
+    background-color: $chat-button-color;
     border: 0;
     border-radius: 100px;
     color: $primary-color;
-    padding: 0 20px;
+    padding: 0 20px 0 60px;
     cursor: pointer;
     font-family: $base-font;
-    font-size: 1em;
+    font-size: 14px;
     line-height: 1;
-    font-weight: 600;
-    svg {
-        fill: $primary-color;
-        width: 28px;
-        height: 48px;
-        margin-right: 12px;
+    font-weight: 700;
+    transition: all .5s ease;
+    outline: none;
+    &:hover {
+        box-shadow: 0 0 10px rgba(0, 0, 0, .5), 0 0 10px rgba(0, 0, 0, .5);
     }
+}
+
+main>button[class*="icon-chat"].icon::before {
+    font-size: 22px;
+    left: 20px;
 }

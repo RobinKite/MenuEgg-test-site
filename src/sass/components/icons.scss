@@ -43,4 +43,16 @@
     &-right::before {
         content: "\e90c";
     }
+    &-heart-solid::before {
+        content: "\e90d";
+    }
+    &-check::before {
+        content: "\e90e";
+    }
+    &-chat::before {
+        content: "\e90f";
+    }
+    &-mobile::before {
+        content: "\e910";
+    }
 }
