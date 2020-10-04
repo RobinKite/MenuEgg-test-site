@@ -368,77 +368,66 @@
     </footer>
 
     <script>
-        //user-info menu
         let items = document.querySelectorAll(".user-info__item--menu"),
-            itemsArr = [];
-        let content = document.querySelectorAll(".user-info__item--content"),
-            contentArr = [];
-        let count = 0;
-        for (let i = 0; i < items.length; i++) {
-            itemsArr.push(items[i]);
-            contentArr.push(content[i]);
-        }
-        for (let i = 0; i < items.length; i++) {
-            itemsArr[i].onclick = function() {
-                if (count != i) {
-                    itemsArr[count].classList.toggle("menu--selected");
-                    contentArr[count].classList.toggle("visually-hidden");
-                    count = i;
-                    itemsArr[i].classList.toggle("menu--selected");
-                    contentArr[i].classList.toggle("visually-hidden");
-                    console.log(count);
-                } else if (count === i) {
-                    console.log("ALREADY PICKED");
-                }
-            };
-        }
-        //consumers menu
-        let items2 = document.querySelectorAll(".consumers__menu--item"),
-            itemsArr2 = [];
-        let content2 = document.querySelectorAll(".consumers__content--item"),
+            items2 = document.querySelectorAll(".consumers__menu--item"),
+            items3 = document.querySelectorAll(".personality__rest-option"),
+            items4 = document.querySelectorAll(".personality__item--style"),
+            content = document.querySelectorAll(".user-info__item--content"),
+            content2 = document.querySelectorAll(".consumers__content--item");
+
+        let itemsArr = [],
+            itemsArr2 = [],
+            itemsArr3 = [],
+            itemsArr4 = [],
+            contentArr = [],
             contentArr2 = [];
-        let count2 = 0;
-        for (let i = 0; i < items2.length; i++) {
-            itemsArr2.push(items2[i]);
-            contentArr2.push(content2[i]);
+
+        let count = 0,
+            count2 = 0;
+
+        function pushItem(arr, it) {
+            for (let i = 0; i < it.length; i++) {
+                arr.push(it1[i]);
+            }
         }
-        for (let i = 0; i < items2.length; i++) {
-            itemsArr2[i].onclick = function() {
-                if (count2 != i) {
-                    itemsArr2[count2].classList.toggle("step--selected");
-                    contentArr2[count2].classList.toggle("visually-hidden");
-                    count2 = i;
-                    itemsArr2[i].classList.toggle("step--selected");
-                    contentArr2[i].classList.toggle("visually-hidden");
-                    // console.log(count2);
-                } else if (count2 === i) {
-                    console.log("ALREADY PICKED");
+
+        function menuSelect(it, arr1, arr2, num, showClass, hideClass) {
+            for (let i = 0; i < it.length; i++) {
+                arr1[i].onclick = function() {
+                    if (num != i) {
+                        arr1[num].classList.toggle(showClass);
+                        arr2[num].classList.toggle(hideClass);
+                        num = i;
+                        arr1[i].classList.toggle(showClass);
+                        arr2[i].classList.toggle(hideClass);
+                    } else if (num === i) {
+                        console.log("ALREADY PICKED");
+                    }
+                };
+            }
+        }
+
+        function itemsSelect(it, arr, cl) {
+            for (let i = 0; i < it.length; i++) {
+                arr[i].onclick = function() {
+                    arr[i].classList.toggle(cl);
                 }
-            };
+            }
         }
+        // push items
+        pushItem(itemsArr, items);
+        pushItem(itemsArr2, items2);
+        pushItem(itemsArr3, items3);
+        pushItem(itemsArr4, items4);
+        pushItem(contentArr, content);
+        pushItem(contentArr2, content2);
+        //user-info menu
+        menuSelect(items, itemsArr, contentArr, count, "menu--selected", "visually-hidden");
+        //consumers menu
+        menuSelect(items2, itemsArr2, contentArr2, count2, "step--selected", "visually-hidden");
         //personality options
-        let items3 = document.querySelectorAll(".personality__rest-option"),
-            itemsArr3 = [];
-        let items4 = document.querySelectorAll(".personality__item--style"),
-            itemsArr4 = [];
-        for (let i = 0; i < items3.length; i++) {
-            itemsArr3.push(items3[i]);
-        }
-        for (let i = 0; i < items3.length; i++) {
-            itemsArr3[i].onclick = function() {
-                itemsArr3[i].classList.toggle("rest--selected");
-            }
-        }
-        for (let i = 0; i < items4.length; i++) {
-            itemsArr4.push(items4[i]);
-        }
-        for (let i = 0; i < items4.length; i++) {
-            itemsArr4[i].onclick = function() {
-
-                itemsArr4[i].classList.toggle("food--selected");
-
-            }
-        }
+        itemsSelect(items3, itemsArr3, "rest--selected");
+        itemsSelect(items4, itemsArr4, "food--selected");
     </script>
 </body>
 
